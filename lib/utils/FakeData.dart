@@ -1,0 +1,77 @@
+import 'package:trader_sample/models/qoute.model.dart';
+import 'dart:math';
+
+List<Qoute> qoutes = [
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(22),
+      type: 'BOTUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(30),
+      type: 'EURUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(22),
+      type: 'BOLUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(32),
+      type: 'PETUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(32),
+      type: 'BOTUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(32),
+      type: 'BOTUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(22),
+      type: 'DOMUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(21),
+      type: 'BOTUSD'),
+  new Qoute(
+      date: new DateTime.now(),
+      high: new Random().nextDouble(),
+      low: new Random().nextDouble(),
+      highSecondary: new Random().nextDouble(),
+      lowSecondary: new Random().nextDouble(),
+      spread: new Random().nextInt(21),
+      type: 'COIUSD'),
+];
